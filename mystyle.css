@@ -5,10 +5,6 @@
 .dropdown-menu{
     --bs-dropdown-min-width: 10rem;
 }
-body{
-    background: rgb(14,194,207);
-background: linear-gradient(90deg, rgba(14,194,207,1) 0%, rgba(255,255,255,1) 100%);
-}
 .navbar.navbar-expand-lg.bg-info{
     background: rgb(14,194,207)!important;
 }
