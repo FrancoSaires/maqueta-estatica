@@ -6,5 +6,11 @@
     --bs-dropdown-min-width: 10rem;
 }
 .navbar.navbar-expand-lg.bg-info{
-    background: rgb(14,194,207)!important;
+    background-image:url(imagenes/fondoMadera.jpg);
+}
+.container-fluid{
+    display: flex;
+}
+.row {
+    justify-content: center;
 }
