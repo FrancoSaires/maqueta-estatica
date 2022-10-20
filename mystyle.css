@@ -10,9 +10,25 @@
 .container-fluid{
     display: flex;
 }
+.container.descripcion{
+    margin: 5rem 9rem;
+}
 .row {
     justify-content: center;
 }
 .banner{
+    position: absolute;
     z-index: -1;
+}
+.userprofile{
+    border-radius: 10%;
+    width: 100%;
+}
+.col-4.titulos{
+    background-image:url(imagenes/fondoMadera.jpg);
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.col-2.perfil{
+    background-image:url(imagenes/fondoMadera.jpg);
 }
