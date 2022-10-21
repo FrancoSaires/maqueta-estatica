@@ -21,15 +21,48 @@
     z-index: -1;
 }
 .userprofile{
-    border-radius: 10%;
-    width: 100%;
+    border-radius: 50%;
+    width: 90px;
+    margin: 15px 0 0 15px;
 }
 .col-4.titulos{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(226, 226, 226);
     margin-left: 4rem;
     margin-right: 4rem;
     border-radius: 15%;
 }
-.col-2.perfil{
-    background-image:url(imagenes/fondoMadera.jpg);
+.circ1{
+    width:120px;
+    height:120px;
+    border-radius:120px;
+    background-color:rgb(226, 226, 226);
+    margin:20px 0 0 60px;
+    }
+.circ2{
+    width:150px;
+    height:80px;
+    border-radius: 80px / 50px;
+    background-color:rgb(226, 226, 226);
+    margin:-90px 0 0 80px;
+}  
+.circ3{
+    width:150px;
+    height:90px;
+    border-radius: 80px / 50px;
+    background-color:rgb(226, 226, 226);
+    margin:-90px 0 0 0px;
+    }
+.nombre{
+    text-align: center;
+    margin: -5px 0 0 75px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10%/50% ;
+    width: 166px;
+    height: 29px;
+}
+.nubeTitulos{
+    background-color: rgb(226, 226, 226);   
+}
+.container.Experiencias{
+    background-color: rgb(226, 226, 226);
 }
