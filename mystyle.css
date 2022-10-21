@@ -2,7 +2,12 @@
     z-index: 1;
     --bs-navbar-padding-x: none !important;
     --bs-navbar-brand-padding-y: none !important;
-    background-image:url(imagenes/fondoMadera.jpg);
+    background: rgb(255,222,53) !important;
+    background: linear-gradient(90deg, rgba(255,222,53,1) 0%, rgb(99, 175, 190) 100%)!important;
+    border-radius: 0 0 50px 50px;
+}
+body{
+background-image: url(imagenes/bannerAvion.jpg);
 }
 .dropdown-menu{
     --bs-dropdown-min-width: 10rem;
@@ -29,7 +34,7 @@
     background-color:rgb(226, 226, 226);
     margin-left: 4rem;
     margin-right: 4rem;
-    border-radius: 15%;
+    border-radius: 60px;
 }
 .circ1{
     width:120px;
@@ -60,9 +65,35 @@
     width: 166px;
     height: 29px;
 }
-.nubeTitulos{
-    background-color: rgb(226, 226, 226);   
+
+.nubeTitulos {
+    background-color: rgb(226, 226, 226);
+    width: 450px;
+    height: 210px;
+    border-radius: 503px / 300px;
+    position: absolute;
+    z-index: -1;
+    margin: -14px 0 0 -45px;
+ }
+.nubeTitulos2{
+    background-color: rgb(226, 226, 226);
+    z-index: -1;
+    position: absolute;
+    width: 140px;
+    height: 300px;
+    border-radius: 90px / 80px;
+    margin: -50px 0 0 90px;
 }
 .container.Experiencias{
     background-color: rgb(226, 226, 226);
+    border-radius: 90px;
+}
+.nubeExperiencias {
+    background-color: rgb(226, 226, 226);
+    z-index: -1;
+    position: absolute;
+    width: 100px;
+    height: 300px;
+    margin: -75px 0 0 0;
+    border-radius: 100px;
 }
