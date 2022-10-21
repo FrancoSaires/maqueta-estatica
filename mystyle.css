@@ -25,9 +25,10 @@
     width: 100%;
 }
 .col-4.titulos{
-    background-image:url(imagenes/fondoMadera.jpg);
+    background-color:rgb(255, 255, 255);
     margin-left: 4rem;
     margin-right: 4rem;
+    border-radius: 15%;
 }
 .col-2.perfil{
     background-image:url(imagenes/fondoMadera.jpg);
