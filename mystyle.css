@@ -4,7 +4,6 @@
     --bs-navbar-brand-padding-y: none !important;
     background: rgb(255,222,53) !important;
     background: linear-gradient(90deg, rgba(255,222,53,1) 0%, rgb(99, 175, 190) 100%)!important;
-    border-radius: 0 0 50px 50px;
 }
 body{
 background-image: url(imagenes/bannerAvion.jpg);
