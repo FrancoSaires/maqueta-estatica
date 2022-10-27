@@ -2,8 +2,7 @@
     z-index: 1;
     --bs-navbar-padding-x: none !important;
     --bs-navbar-brand-padding-y: none !important;
-    background: rgb(255,222,53) !important;
-    background: linear-gradient(90deg, rgba(255,222,53,1) 0%, rgb(99, 175, 190) 100%)!important;
+    background: rgb(25, 243, 214) !important;
 }
 body{
 background-image: url(imagenes/bannerAvion.jpg);
@@ -14,78 +13,18 @@ background-image: url(imagenes/bannerAvion.jpg);
 .container-fluid{
     display: flex;
 }
-.container.descripcion{
-    margin: 5rem 9rem;
-}
 .row {
     justify-content: center;
 }
 .banner{
-    position: absolute;
-    z-index: -1;
+    border-radius: 50px;
 }
 .userprofile{
     border-radius: 50%;
-    width: 90px;
-    margin: 15px 0 0 15px;
-}
-.col-4.titulos{
-    background-color:rgb(226, 226, 226);
-    margin-left: 4rem;
-    margin-right: 4rem;
-    border-radius: 60px;
-}
-.circ1{
-    width:120px;
-    height:120px;
-    border-radius:120px;
-    background-color:rgb(226, 226, 226);
-    margin:20px 0 0 60px;
-    }
-.circ2{
-    width:150px;
-    height:80px;
-    border-radius: 80px / 50px;
-    background-color:rgb(226, 226, 226);
-    margin:-90px 0 0 80px;
-}  
-.circ3{
-    width:150px;
-    height:90px;
-    border-radius: 80px / 50px;
-    background-color:rgb(226, 226, 226);
-    margin:-90px 0 0 0px;
-    }
-.nombre{
-    text-align: center;
-    margin: -5px 0 0 75px;
-    background-color: rgb(226, 226, 226);
-    border-radius: 10%/50% ;
-    width: 166px;
-    height: 29px;
 }
 
-.nubeTitulos {
-    background-color: rgb(226, 226, 226);
-    width: 450px;
-    height: 210px;
-    border-radius: 503px / 300px;
-    position: absolute;
-    z-index: -1;
-    margin: -14px 0 0 -45px;
- }
-.nubeTitulos2{
-    background-color: rgb(226, 226, 226);
-    z-index: -1;
-    position: absolute;
-    width: 140px;
-    height: 300px;
-    border-radius: 90px / 80px;
-    margin: -50px 0 0 90px;
-}
 .container.Experiencias{
-    background-color: rgb(226, 226, 226);
-    border-radius: 90px;
+    margin-top: 4rem;
 }
 .nubeExperiencias {
     background-color: rgb(226, 226, 226);

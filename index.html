@@ -1,124 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba maqueta</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <script src="https://kit.fontawesome.com/b035ee93f1.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba maqueta</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://kit.fontawesome.com/b035ee93f1.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <header>
     <nav class="navbar navbar-expand-lg bg-info">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="imagenes/APLogo-20-20.png" alt="Bootstrap" width="20%" height="">
-          </a>
-                <ul class="list-group list-group-horizontal">
-                 <li class="list-group-item"><a href="https://wa.me/543525454414?text=Hola%20Franco,%20me%20intereso%20tu%20Portafolio%20web.%20"><i class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
-                 <li class="list-group-item"><a href="https://www.instagram.com/fran.saires/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-                 <li class="list-group-item"><a href="https://www.facebook.com/franco.saires.7/"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-                 <!-- button trigger modal -->
-                 <li class="list-group-item">
-                  <i type="button" class="fa-solid fa-user-pen fa-2xl" data-bs-toggle="modal" data-bs-target="#loginModal">
-                  </i>
-                </li>
-                </ul>
-               <!-- Modal -->
-                <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="mb-3 row">
-                          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                          <div class="col-sm-10">
-                            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                          </div>
-                        </div>
-                        <div class="mb-3 row">
-                          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                          <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword">
-                          </div>
-                        </div>
-                        <button type="button" class="btn btn-primary mb-3">login</button>
-                      </div>
-                    </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/APLogo-20-20.png" alt="Bootstrap" width="20%" height="">
+        </a>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><a
+              href="https://wa.me/543525454414?text=Hola%20Franco,%20me%20intereso%20tu%20Portafolio%20web.%20"><i
+                class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
+          <li class="list-group-item"><a href="https://www.instagram.com/fran.saires/"><i
+                class="fa-brands fa-instagram fa-2xl"></i></a></li>
+          <li class="list-group-item"><a href="https://www.facebook.com/franco.saires.7/"><i
+                class="fa-brands fa-facebook fa-2xl"></i></a></li>
+          <!-- button trigger modal -->
+          <li class="list-group-item"><i type="button" class="fa-solid fa-user-pen fa-2xl" data-bs-toggle="modal"
+              data-bs-target="#loginModal"></i></li>
+        </ul>
+        <!-- Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3 row">
+                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control-plaintext" id="staticEmail" value="email@example.com">
                   </div>
                 </div>
-        </div>
-      </nav>
-      <div class="container descripcion">
-        <div class="row">
-          <div class="col-2 perfil">
-            <div class="circ1">
-              <img class="userprofile" src="imagenes/FotoDeUsuario.jpg">
-            </div>
-            <div class="circ2"></div>
-            <div class="circ3"></div>
-            <div class="row">
-              <h5 class="nombre">Franco Saires</h5>
+                <div class="mb-3 row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary mb-3">login</button>
+              </div>
             </div>
           </div>
-          <div class="col"></div>
-          <div class="col-4 titulos">
-            <div class="nubeTitulos"></div>
-            <div class="nubeTitulos2"></div>
-            <ul><h1>Titulos:</h1>
-            <li><h3>Full Stack Developer Jr</h3></li>
-            <li><h3>Técnico del Automotor</h3></li>
-            <li><h3>Community Management</h3></li>
-          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img class="banner" src="imagenes/banner.jpg" alt="..." width="100%">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="Acerca de">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img class="userprofile" src="imagenes/FotoDeUsuario.jpg" width="100%">
+          <div class="row">
+            <p style="text-align: center;">Franco Saires</p>
           </div>
         </div>
-      </div> 
-      <div class="container Experiencias">
-        <div class="row"> 
-          <p style="text-align: center;">Experiencias Laborales</p>
+        <div class="col-9">
+          <div class="row">
+            <p style="text-align: center;">Info profesional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Experiencias">
+    <div class="container Experiencias">
+      <div class="row">
+        <h1 style="text-align: center;">Experiencia Laboral:</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <img  class="fotoTrabajo" src="imagenes/drugstore.jpg" alt="..." width="100%">
+        </div>
+        <div class="col">
+          <h1>Lugar</h1>
+          <ul>
+            <li><p>Puesto</p></li>
+            <li><p>Descripcion de las actividades</p></li>
+            <li><p>Periodo</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <img  class="fotoTrabajo" src="imagenes/drugstore.jpg" alt="..." width="100%">
+        </div>
+        <div class="col">
+          <h1>Lugar</h1>
+          <ul>
+            <li><p>Puesto</p></li>
+            <li><p>Descripcion de las actividades</p></li>
+            <li><p>Periodo</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <img  class="fotoTrabajo" src="imagenes/drugstore.jpg" alt="..." width="100%">
+        </div>
+        <div class="col">
+          <h1>Lugar</h1>
+          <ul>
+            <li><p>Puesto</p></li>
+            <li><p>Descripcion de las actividades</p></li>
+            <li><p>Periodo</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <img  class="fotoTrabajo" src="imagenes/drugstore.jpg" alt="..." width="100%">
+        </div>
+        <div class="col">
+          <h1>Lugar</h1>
+          <ul>
+            <li><p>Puesto</p></li>
+            <li><p>Descripcion de las actividades</p></li>
+            <li><p>Periodo</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Educacion">
+      <div class="container Educacion">
+        <div class="row">
+          <h1 style="text-align: center;">Educacion:</h1>
         </div>
         <div class="row">
-          <div class="col-3">
-            <ul>
-            <li><strong> Munay (Polirubro)</strong></li>
-            <li> Atencion al Publico</li>
-            <li> Manejo de caja, control de stock, limpieza, encargado del local, control de mercaderia.</li>
-            <li>2017-2022</li>
-          </ul>
+          <div class="col-sm-2">
+            <img  class="fotoTrabajo" src="imagenes/fondoMadera.jpg" alt="..." width="100%">
           </div>
-          <div class="col-3">
+          <div class="col">
             <ul>
-              <li><strong> Drugstore Arg (kiosco)</strong></li>
-              <li> Atencion al Publico</li>
-              <li> Manejo de caja, control de stock, control de mercaderia.</li>
-              <li>02/2022-03/2022</li>
-            </ul>
-          </div>
-          <div class="col-3">
-            <ul>
-              <li><strong> Industria Interior (Fabrica de Muebles)</strong></li>
-              <li> Ayudante de maquina</li>
-              <li>uso de maquina "pegadora", control de calidad, manejo de herramientas de taller.</li>
-              <li>03/2022-05/2022</li>
-            </ul>
-          </div>
-          <div class="col-3">
-            <ul>
-              <li><strong>Pedidos Ya</strong></li>
-              <li>Repartidor</li>
-              <li>Entrega en tiempo y forma.</li>
-              <li>06/2022-actualidad</li>
+              <li><p>Intituto</p></li>
+              <li><p>Carrera o Titulo Estudiado</p></li>
+              <li><p>Periodo</p></li>
             </ul>
           </div>
         </div>
       </div>
+  </section>
+  <section id="HardAndSoftSkill">
+    <div class="container">
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+          aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+          style="width: 35%"></div>
       </div>
-     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
-</html>
+      <section>
+        <div class="circle-wrap">
+        <div class="circle">
+        <div class="mask full">
+        <div class="fill"></div>
+        </div>
+        <div class="mask half">
+        <div class="fill"></div>
+        </div>
+        <div class="inside-circle"> 70% </div>
+        </div>
+        </div>
+        </section>
+    </div>
+  </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
